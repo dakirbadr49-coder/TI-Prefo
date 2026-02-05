@@ -13,7 +13,11 @@ header{
     
 }
 .nav-bar{
-   
+   position: fixed;
+  background-color: rgba(105, 45, 139, 0.541);
+  padding: 10px ;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
 }
 
 .content{
@@ -21,14 +25,14 @@ header{
 }
 h1{
     text-align: center;
-    background-image: url(../MonProjetPrefo/image/milky-way-67504_1280.jpg);
-margin-bottom: 50px;
-    padding: 50px;
+    background-image: url(../MonProjetPrefo/image/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL21vdGFybzdfbWF1dmVfd2F0ZXJjb2xvcl9iYWNrZ3JvdW5kXzAzZDJkYzhhLWEyZDQtNDMxZi1iYjdkLThjODI1NzRlYmQ4Zl8xLmpwZw.jpg);
+margin-bottom: 100px;
+    padding: 15px;
     color: aliceblue;
     border-radius: 50%;
 }
 .section-index{
-
+margin-left: 250px;
 }
 .section-1{
     padding: 90px;
@@ -36,12 +40,14 @@ margin-bottom: 50px;
 background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
     border-radius: 50px;
     margin-bottom: 20px;
+     box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
 }
 .section-2{
     padding: 90px;
      background: #0f2b4d;
 background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
 }
 
 .section-3{
@@ -50,18 +56,20 @@ background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.3
 background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
   border-radius: 50px;
   margin-bottom: 20px;
+   box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
 }
 .section-4{
  padding: 90px;
    background: #0f2b4d73;
 background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
   border-radius: 50px;
+   box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
 
 }
 
 .ul-index {
     background-color: rgba(86, 68, 151, 0.171);
-    padding: 30px;
+
     width: 90px;
     margin-left: 30px;
     border-radius: 40px;
@@ -97,12 +105,13 @@ margin-left: 300px;
 }
 footer{
     text-align: center;
-    background-color: gray;
-    padding: 10px;
-    margin-top: 50px;
+   background-color: #0f2b4d;
+    bottom: 0;
+    padding: 0;
+
 }
 aside{
-    position: absolute;
+
     
 }
 img{
@@ -113,6 +122,7 @@ display: flex;
 justify-content: center;
 justify-items: center;
 margin-top: 50px;
+margin-left: 250px;
 }
 
 a{
@@ -127,9 +137,13 @@ img{
 p{
     background-color: rgba(128, 128, 128, 0.103);
     font-size: initial;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .ul-parcours li{
     list-style: none;
+    
   
 }
 ul a {
@@ -141,8 +155,12 @@ ul a {
     padding: 30px;
 }
 .image-parcours{
-    margin-left: 100px;
+   margin-left: 200px;
 }
 .image-rapport{
     margin-left: 200px;
 }
+ul{
+    padding: 0;
+}
+
