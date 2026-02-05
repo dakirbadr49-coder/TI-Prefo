@@ -125,3 +125,9 @@ a{
 img{
     border-radius: 30px;
 }
+.header{
+    float: left;
+}
+p{
+    background-color: rgba(128, 128, 128, 0.103);
+}
