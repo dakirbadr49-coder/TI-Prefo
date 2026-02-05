@@ -1,60 +1,100 @@
 body{
-  background: #5b97bd;
-background: linear-gradient(0deg, rgba(91, 151, 189, 1) 0%, rgba(176, 80, 181, 0.493) 100%);
-
+ background: #EEAECA;
+background: radial-gradient(circle, rgb(153, 92, 118) 0%, rgb(76, 112, 153) 100%);
+width: 1024px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+    margin: 0 auto;
 }
-.content{
-   
-margin: 0;
+header{
+    float: left;
 }
 .nav-bar{
 position: fixed;
+float: left;
+
+
 }
+
 h1{
     text-align: center;
-    background-image: url(../MonProjetPrefo/image/583aa5d9-c719-43e4-9c49-c2d89e5da6a5.jpg);
+    background-image: url(../MonProjetPrefo/image/milky-way-67504_1280.jpg);
+
     padding: 20px;
     color: aliceblue;
+    border-radius: 30px;
 }
 .section-index{
-justify-content: center;
-justify-items: center;
-margin-left: 0;
 
 }
 .section-1{
     padding: 90px;
-    background-color: rgba(0, 0, 255, 0.205);
-    border-radius: 40px;
+    background: #0f2b4d;
+background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
+
+margin-right: 100px;
+    border-radius: 50px;
     margin-bottom: 20px;
 }
 .section-2{
     padding: 90px;
-    background-color: rgba(0, 0, 255, 0.219);
-    border-radius: 40px;
-    margin-bottom: 20px;
+     background: #0f2b4d;
+background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
 
+   border-radius: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.section-3{
+ padding: 90px;
+     background: #0f2b4d80;
+background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
+
+
+  border-radius: 50px;
+    margin-right: 100px;
+   
+
+}
+.section-4{
+ padding: 90px;
+   background: #0f2b4d73;
+background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
+
+
+  border-radius: 50px;
 }
 
 ul {
-    background-color: rgba(85, 13, 94, 0.377);
+    background-color: rgba(86, 68, 151, 0.171);
     padding: 30px;
     width: 90px;
     margin-left: 30px;
     border-radius: 40px;
+    margin: 0;
+    text-decoration: none;
 }
+
 ul li{
     text-decoration: none;
-  
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin: 0;
 }
 a{
     text-decoration: none;
     color: black;
+    margin: 0;
 }
 .box-1{
-    display: flex;
-
+display: flex;
 }
 .box-2{
     display: flex;
@@ -76,4 +116,12 @@ img{
 display: flex;
 justify-content: center;
 justify-items: center;
+margin-top: 50px;
+}
+
+a{
+    padding: 10px;
+}
+img{
+    border-radius: 30px;
 }
