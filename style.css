@@ -8,19 +8,16 @@ width: 1024px;
     padding: 30px;
     margin: 0 auto;
 }
-header{
-   
-    
-}
+
 .nav-bar{
    position: fixed;
-  background-color: rgba(105, 45, 139, 0.541);
+
   padding: 13px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
 }
 
-.content:hover{
+.content{
     justify-content: center;
     justify-items: center;
 }
@@ -33,7 +30,7 @@ margin-bottom: 100px;
     color: aliceblue;
     border-radius: 50px;
     box-shadow: rgba(24, 3, 48, 0.74)  1px 10px 15px 10px;
-  
+  font-weight: bold;
 }
 .section-index{
 margin-left: 60px;
@@ -47,6 +44,18 @@ background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.1
     margin-bottom: 20px;
      box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
     
+}
+.section-1:hover{
+    border: 3px solid rgba(104, 13, 146, 0.438);
+}
+.section-2:hover{
+    border: 3px solid rgba(104, 13, 146, 0.438);
+}
+.section-3:hover{
+    border: 3px solid rgba(104, 13, 146, 0.438);
+}
+.section-4:hover{
+    border: 3px solid rgba(104, 13, 146, 0.438);
 }
 .section-2{
     padding: 90px;
@@ -167,7 +176,7 @@ ul a {
       box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px 60px;
 }
 .image-rapport{
-    margin-left: 190px;
+    margin-left: 180px;
      box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px 60px;
 }
 ul{
@@ -178,9 +187,9 @@ ul{
     margin-left: 30px;
 }
 ol{
-    margin-left: 150px;
+    margin-left: 200px;
 background-color: rgba(128, 128, 128, 0.363);
-border-radius: 10px;
+border-radius: 20px;
 }
 .image-interview{
     margin-left: 130px;
@@ -192,4 +201,37 @@ border-radius: 10px;
 }
 .h1-right{
     margin-left: 60px;
+}
+.a1:hover{
+     border: 3px solid rgba(33, 5, 46, 0.438);
+     border-radius: 30%;
+     width: 60px;
+    
+}
+.a2:hover{
+    border: 3px solid rgba(33, 6, 46, 0.438);
+     border-radius: 30%;
+     width: 65px;
+    
+}
+.a3:hover{
+    border: 3px solid rgba(31, 5, 43, 0.438);
+      border-radius: 30%;
+     width: 60px;
+    
+}
+.a4:hover{
+    border: 3px solid rgba(38, 7, 53, 0.438);
+     border-radius: 30%;
+     width: 75px;
+    
+}
+.a0:hover{
+    border: 3px solid rgba(13, 4, 17, 0.438);
+    border-radius: 30%;
+     width: 60px;
+    
+}
+.image-conclution{
+    margin-left: 150px;
 }
