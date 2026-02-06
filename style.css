@@ -69,7 +69,7 @@ background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.3
    background: #0f2b4d73;
 background: linear-gradient(0deg, rgba(15, 43, 77, 1) 0%, rgba(117, 52, 161, 0.384) 100%);
   border-radius: 50px;
-   box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;argin-right: 60px;
+   box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
  
 }
 
@@ -125,12 +125,11 @@ img{
     width: 600px;
 }
 .image-a{
-display: flex;
-justify-content: center;
-justify-items: center;
 margin-top: 50px;
 margin-left: 250px;
 margin-bottom: 50px;
+box-shadow: rgba(0, 0, 0)  10px 10px 10px 10px;
+border-radius: 50px;
 }
 
 a{
@@ -164,9 +163,11 @@ ul a {
 }
 .image-parcours{
    margin-left: 200px;
+      box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px 60px;
 }
 .image-rapport{
-    margin-left: 250px;
+    margin-left: 200px;
+     box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px 60px;
 }
 ul{
     padding: 0;
@@ -179,4 +180,8 @@ ol{
     margin-left: 150px;
 background-color: rgba(128, 128, 128, 0.363);
 border-radius: 10px;
+}
+.image-interview{
+    margin-left: 130px;
+     box-shadow: rgba(0, 0, 0)  0px 5px 10px 5px;
 }
