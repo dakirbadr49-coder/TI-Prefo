@@ -28,9 +28,9 @@ h1{
     text-align: center;
     background-image: url(../MonProjetPrefo/image/milky-way-67504_1280.jpg);
 margin-bottom: 100px;
-    padding: 30px;
+    padding: 25px;
     color: rgb(223, 234, 238);
-    border-radius: 50px;
+    border-radius: 50%;
     box-shadow: rgba(30, 62, 205, 0.206)  1px 10px 15px 10px;
   font-weight: bold;
 }
@@ -244,5 +244,12 @@ padding: 35px;
     margin-left: -30px;
 }
 .footer-idex{
-    margin-left: 270px;
+    margin-left: 230px;
+}
+strong li {
+    width: 300px;
+    margin-top: 20px;
+}
+ul  strong{
+    color: #070339;
 }
